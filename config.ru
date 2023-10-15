@@ -1,7 +1,7 @@
 require "rubygems"
 require "geminabox"
 
-Geminabox.data = "/var/geminabox"
+Geminabox.data = "/data"
 Geminabox.rubygems_proxy = true
 
 use Rack::Session::Pool, expire_after: 1000
